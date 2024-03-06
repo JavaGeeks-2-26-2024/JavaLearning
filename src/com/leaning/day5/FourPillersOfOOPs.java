@@ -86,6 +86,7 @@ public class FourPillersOfOOPs {
 //               1. we can not create the Object by using of abstarct Class
 //               2. Abstract methods can only be used inside a Abstract class  -> abstract methods will not have a body
 //               3. Abstract Classes can have both regular methods and abstract methods.
+//         4. whatever class that is extending from abstarct Class needs to provide the implementation for abstract methods
          
          Calculator clc = new Calculator();
          System.out.println(clc.getArea(10, 5, "square"));

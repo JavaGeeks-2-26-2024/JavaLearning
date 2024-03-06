@@ -81,6 +81,11 @@ public class ArraysIntro {
 		  BankAccount myaccount =  bank1.getMyaccountByPosition(1);
 		 
 		  System.out.println(myaccount.checkBalance());
+		  
+//		  
+//		  OTT myott = new OTT();
+//		  
+//		  myott.addmovie()
 	}
 
 }

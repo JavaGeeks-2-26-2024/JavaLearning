@@ -1,1 +1,34 @@
-OOT -> Class 
+OTT -> Class 
+movie[]
+Series[]
+
+Series -class 
+epi[] 
+
+
+epi-> class 
+name , content
+
+
+movie-> class 
+name, content
+
+
+
+video -> parent  => epi, movie => child
+name, content
+
+
+-> when we can add a movie to OTT 
+-> we can remove a movie from OTT
+-> we can get a movie by name 
+-> we can get a movie by position
+-> we can update a movie name using OTT method
+-> we can play movie from OTT
+----------------------------------------------------------------
+-> when we can add a Series to OTT 
+-> we can remove a Series from OTT
+-> we can get a Series by name 
+-> we can get a Series by position
+-> we can update a Series name using OTT method
+-> we can play Series from OTT
