@@ -1,4 +1,4 @@
-package com.leaning.day8;
+package com.leaning.day8and9;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -77,6 +77,11 @@ public class QueuesIntro {
     // ------------------------------------------------------------------------------------------------------
 		
 		Deque<Integer> stack = new ArrayDeque<Integer>();
+		
+//		stack (arrayDeque) is faster then normal stack data structure
+//		because stack is a synchronized as its extends vectore, that hwy arrayDque is faster than normal stack DS.
+		
+		
         
         
 	}
