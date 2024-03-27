@@ -15,7 +15,7 @@ public class SetIntro {
 //		   2. LinkedHashSet   uses => HashFunction
 //		   3. TreeSet         uses => Red black trees
 		
-//		 => venn -diagrams
+//		 => venn - diagrams
 		
 //		 => union , intersection
 		

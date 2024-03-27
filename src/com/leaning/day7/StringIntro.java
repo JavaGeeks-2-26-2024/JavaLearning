@@ -124,7 +124,8 @@ public class StringIntro {
 		           strBuf.append("hello");
 		           strBuf.append("  ");
 		           strBuf.append("world");
-		              
+		            
+		           strBuf.replace(0, 5, "my");
 		           
 		           System.out.println(strBuf);   // the output is the type of StringBuffer
 //		           String str2 = strBuf;

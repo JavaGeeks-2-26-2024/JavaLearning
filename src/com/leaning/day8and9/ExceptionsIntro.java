@@ -4,10 +4,10 @@ public class ExceptionsIntro {
 
 	public static void main(String[] args) {
  
-		//   Exception : abnormal termination of progream.
+//   Exception : abnormal termination of progream.
 		
 // 		         
-//		types of Exceptions:
+//	types of Exceptions:
 //		                 1. Checked Exception
 //		                              ->chcked at compile time, Extends the "Exception" class
 //		                              -> methods that might throw a checked Exception must declare it in their "throws" clause.
@@ -66,8 +66,8 @@ public class ExceptionsIntro {
 	     try {
 			myatm.withdraw(10);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 
